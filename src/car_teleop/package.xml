@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>car_teleop</name>
+  <version>0.1.0</version>
+
+  <description>
+    C++ keyboard and joystick teleoperation for an Ackermann car.
+  </description>
+
+  <maintainer email="maintainer@example.com">
+    car_teleop maintainer
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>joy</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
